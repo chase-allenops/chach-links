@@ -13,10 +13,10 @@
 
 <svelte:head>
   <!-- <link rel="icon" type="image/svg" href=/> -->
-  <title>Chase Allen</title>
+  <title>Chase Allen - Data Engineer and Consultant</title>
   <meta
     name="description"
-    content="Chase Allen, Data Engineer"
+    content="Chase Allen, Data Engineer and Consultant"
   >
   <meta name="author" content="Chase Allen">
   <meta charset="utf-8">
