@@ -4,6 +4,7 @@
     import posthog from 'posthog-js'
     import { browser } from '$app/environment';
     import { beforeNavigate, afterNavigate } from '$app/navigation';
+    
 
     if (browser) {
             beforeNavigate(() => posthog.capture('$pageleave'));
@@ -16,7 +17,7 @@
   <title>Chase Allen - Data Engineer and Consultant</title>
   <meta
     name="description"
-    content="Chase Allen, Data Engineer and Consultant"
+    content="Chase Allen is a data engineer and tech founder based in Indianapolis, Indiana."
   >
   <meta name="author" content="Chase Allen">
   <meta charset="utf-8">

@@ -1,3 +1,7 @@
+<script>
+    import LinkButton from "$lib/components/link-button.svelte";
+</script>
+
 <div class="flex items-center font-mono flex-col ">
     <!-- Header -->
     <div class="flex flex-col md:flex md:flex-row items-center gap-4 pt-4">
@@ -19,30 +23,13 @@
         </div>
     </div>
     <!-- Link Menu -->
-    <div class="flex flex-col w-5/6 md:w-1/2 items-center pt-2">
-        <a href="https://consulting.pipelinx.io/" target="_blank" class="mt-4">
-        <div class="flex bg-gray-300 items-center py-2 px-14 md:px-[290px] text-2xl md:text-3xl rounded-md hover:bg-gray-200 duration-150">
-            <h2 class="">Data Consulting</h2>
-        </div>
-        </a>
+    <div class="flex flex-col items-center pt-2">
+        <LinkButton text="Data Consulting" target="https://consulting.pipelinx.io/" />
 
-        <a href="https://pipelinx.io/" target="_blank" class="mt-4">
-        <div class="flex bg-gray-300 items-center py-2 px-12 md:px-[280px] text-2xl md:text-3xl rounded-md hover:bg-gray-200 duration-150">
-            <h2 class="">ETL as a Service</h2>
-        </div>
-        </a>
+        <LinkButton text="ETL as a Service" target="https://pipelinx.io/" />
 
-        <a href="https://calendar.app.google/aAMDkomGrhHuzWvg8" target="_blank" class="mt-4">
-        <div class="flex bg-gray-300 items-center py-2 px-20 md:px-[320px] text-2xl md:text-3xl rounded-md hover:bg-gray-200 duration-150">
-            <h2 class="">My Calendar</h2>
-        </div>
-        </a>
+        <LinkButton text="My Calendar" target="https://calendar.app.google/aAMDkomGrhHuzWvg8" />
 
-        <a href="https://hoosierflies.com/" target="_blank" class="mt-4">
-        <div class="flex bg-gray-300 items-center py-2 px-[68px] md:px-[305px] text-2xl md:text-3xl rounded-md hover:bg-gray-200 duration-150">
-            <h2 class="">Hoosier Flies</h2>
-        </div>
-        </a>
-
+        <LinkButton text="Hoosier Flies" target="https://hoosierflies.com/" />
     </div>
 </div>
