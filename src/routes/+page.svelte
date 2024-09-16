@@ -24,7 +24,7 @@
     </div>
     <!-- Link Menu -->
     <div class="flex flex-col items-center pt-2">
-        <LinkButton text="Data Consulting" target="https://consulting.pipelinx.io/" />
+        <LinkButton text="Data Consulting" target="https://pipelinx.io/" />
 
         <LinkButton text="ETL as a Service" target="https://pipelinx.io/" />
 
